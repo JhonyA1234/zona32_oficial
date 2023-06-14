@@ -1462,40 +1462,13 @@ table img{
 }
 
 .main-header.header-1{
-  width: calc(100% - 40px);
-  border-radius: 8px;
+  width: 100%;
   position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0px;
   background-color: #fff;
 }
-.main-header.header-1::before{
-  content: '';
-  position: absolute;
-  top: 5px;
-  left: 20px;
-  width: calc(100% - 40px);
-  height: 100%;
-  background-color: rgba(255,255,255,.6);
-  z-index: -1;
-  border-radius: 8px;
-  transition: .3s;
-  pointer-events: none;
-}
-.main-header.header-1::after{
-  content: '';
-  position: absolute;
-  top: 10px;
-  left: 40px;
-  width: calc(100% - 80px);
-  height: 100%;
-  background-color: rgba(255,255,255,.4);
-  z-index: -1;
-  border-radius: 8px;
-  transition: .3s;
-  pointer-events: none;
-}
+
+
 .main-header.header-1:hover::before,
 .main-header.header-1:hover::after{
   left: 0;
